@@ -1,0 +1,76 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App__Wrapper {
+  padding: 2em;
+}
+
+.Loading{ 
+  text-align: center;
+}
+
+.Loading__title {
+  font-size: 23px;
+  padding: 0.5em;
+}
+
+.Loading__text {
+  color: rgb(211, 210, 210);
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5em;
+  width: 120px;
+  margin-left: 1em;
+  border: 0;
+  border-radius: 12px;
+}
+
+.form__input__field {
+  padding: 0.5em;
+  border: 0;
+  border-bottom: 1px solid rgb(71, 71, 71);
+  background-color: rgb(221, 221, 221);
+}
+
+.form__input__field::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.messages__title {
+  text-align: center;
+}
+
+.messages__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message__text {
+  word-break: break-all;
+}
+
+.message {
+  padding: 1em;
+  width: 285px;
+  height: auto;
+  border: 0px;
+  border-radius: 12px;
+  background-color: rgb(219, 219, 219);
+  margin: 10px auto;
+}
+
+.message__title {
+  font-size: 14px;
+}
